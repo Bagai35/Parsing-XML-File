@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Создать XML-файл, хранящий языки и денежные знаки для стран, проверить правильность кода при
+помощи веб браузера
+Artjom Plotnikov
+28-03-2023
+-->
+<!DOCTYPE страны [
+<!ELEMENT countries (country+)>
+<!ELEMENT country (name, language)>
+<!ELEMENT currency (#PCDATA)>
+]>
+<root>
+	<countries>
+		<country>
+			<name>
+				США
+			</name>
+			<language>
+				<lang isOffical="True">
+					английский
+				</lang>
+			</language>
+			<currency name="Доллар" sign="$">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Эстония
+			</name>
+			<language>
+				<lang isOffical="True">
+					эстонский
+				</lang>
+				<lang>
+					английский
+				</lang>
+				<lang>
+					русский
+				</lang>
+			</language>
+			<currency name="Euro" sign="€">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Франция
+			</name>
+			<language>
+				<lang isOffical="True">
+					французкий
+				</lang>
+			</language>
+			<currency name="Euro" sign="€">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Германия
+			</name>
+			<language>
+				<lang isOffical="True">
+					немецкий
+				</lang>
+			</language>
+			<currency name="Euro" sign="€">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Япония
+			</name>
+			<language>
+				<lang isOffical="True">
+					японский
+				</lang>
+			</language>
+			<currency name="Йена" sign="¥">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Казахстан
+			</name>
+			<language>
+				<lang isOffical="True">
+					казахский
+				</lang>
+				<lang>
+					русский
+				</lang>
+			</language>
+			<currency name="KZT" sign="₸">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Турция
+			</name>
+			<language>
+				<lang isOffical="True">
+					турецкий
+				</lang>
+			</language>
+			<currency name="TRY" sign="₺">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Грузия
+			</name>
+			<language>
+				<lang isOffical="True">
+					грузинский
+				</lang>
+			</language>
+			<currency name="GEL" sign="₾">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Испания
+			</name>
+			<language>
+				<lang isOffical="True">
+					испанский
+				</lang>
+			</language>
+			<currency name="EURO" sign="€">
+			</currency>
+		</country>
+		<country>
+			<name>
+				Нидерланды
+			</name>
+			<language>
+				<lang isOffical="True">
+					английский
+				</lang>
+			</language>
+			<currency name="EURO" sign="€">
+			</currency>
+		</country>
+	</countries>
+</root>

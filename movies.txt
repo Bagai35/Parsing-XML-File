@@ -1,0 +1,17 @@
+//movie[@genre[contains(.,'Drama')]]/@title! string()
+ ("Titanic",
+	"Dragon",
+	"Bogdan Khmelnitskiy")
+
+//movie[@year>2000]/@title! string()
+ ("The Fast and the Furious",
+	"Dragon",
+	"Hui Buh: Das Schlossgespenst")
+
+//movie[@director='James Cameron']/@title! string()
+ ("Titanic") 
+
+ //movie[@actors[contains(.,'Vin Diesel')]]/@title! string()
+ ("The Fast and the Furious")
+
+ 

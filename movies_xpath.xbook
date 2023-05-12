@@ -1,0 +1,1 @@
+[{"kind":2,"language":"xpath","value":"//movie[@genre[contains(.,'Drama')]]/@title! string()"},{"kind":2,"language":"xpath","value":"//movie[@year>2000]/@title! string()"},{"kind":2,"language":"xpath","value":"//movie[count(actors) > 2]/@title! string()"}]
